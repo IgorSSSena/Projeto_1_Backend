@@ -1,19 +1,16 @@
 {
-  "name": "projeto_1_backend",
+  "name": "back-end",
   "version": "1.0.0",
-  "description": "Projeto para criar API para uma agenda eletronica",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IgorSSSena/Projeto_1_Backend.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IgorSSSena/Projeto_1_Backend/issues"
-  },
-  "homepage": "https://github.com/IgorSSSena/Projeto_1_Backend#readme"
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongodb": "^6.16.0"
+  }
 }

@@ -1,17 +1,29 @@
-const express = require('express');
-const router = express.Router();
+const { connect } = require("./db");
 
-const usuarios = []; // armazenamento em memória
+class Usuario {
+  constructor(nome, email) {
+    this.nome = nome;
+    this.email = email;
+  }
 
-router.post('/', (req, res) => {
-  const { nome, email, senha } = req.body;
-  const novoUsuario = { id: Date.now(), nome, email, senha };
-  usuarios.push(novoUsuario);
-  res.status(201).json(novoUsuario);
-});
+  async inserir() {
+    try {
+      const { db, client } = await connect();
+      if (!this.nome || !this.email) {
+        throw new Error("Campos obrigatórios ausentes: nome e email.");
+      } else {
+        const result = await db.collection("usuarios").insertOne({
+          nome: this.nome,
+          email: this.email,
+          criadoEm: new Date(),
+        });
+        console.log("Usuário inserido:", result.insertedId);
+        client.close();
+      }
+    } catch (error) {
+      console.error("Erro ao inserir usuário:", error);
+    }
+  }
+}
 
-router.get('/', (req, res) => {
-  res.json(usuarios);
-});
-
-module.exports = router;
+module.exports = Usuario;
