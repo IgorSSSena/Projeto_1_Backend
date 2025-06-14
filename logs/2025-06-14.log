@@ -1,0 +1,30 @@
+[2025-06-14 14:09:46] - INFO - Novo usuário registrado: teste@example.com
+[2025-06-14 14:09:46] - INFO - Login bem-sucedido para o usuário: teste@example.com
+[2025-06-14 14:09:46] - INFO - Compromisso criado para usuário 684d82aac04e8e20e64cbad1: Reunião de Teste
+[2025-06-14 14:09:46] - INFO - Listagem de compromissos realizada para usuário 684d82aac04e8e20e64cbad1
+[2025-06-14 14:09:46] - INFO - Busca por dia realizada para usuário 684d82aac04e8e20e64cbad1 - Data: 2025-06-14
+[2025-06-14 14:09:46] - INFO - Busca por período realizada para usuário 684d82aac04e8e20e64cbad1 - De: 2025-01-01 até 2025-12-31
+[2025-06-14 14:09:46] - INFO - Busca por nome realizada para usuário 684d82aac04e8e20e64cbad1 - Termo: "Reunião"
+[2025-06-14 14:09:46] - INFO - Busca por mês realizada para usuário 684d82aac04e8e20e64cbad1 - Ano: 2025, Mês: 6
+[2025-06-14 14:09:46] - INFO - Listagem de notificações pendentes realizada
+[2025-06-14 14:09:46] - ERRO - Erro na busca por dia para usuário 684d82aac04e8e20e64cbad1: Cast to date failed for value "Invalid Date" (type Date) at path "dataHoraInicio" for model "Compromisso"
+[2025-06-14 14:18:25] - INFO - Novo usuário registrado: teste@example.com
+[2025-06-14 14:18:25] - INFO - Login bem-sucedido para o usuário: teste@example.com
+[2025-06-14 14:18:25] - INFO - Compromisso criado para usuário 684d84b145c6e272b15246d4: Reunião de Teste
+[2025-06-14 14:18:26] - INFO - Listagem de compromissos realizada para usuário 684d84b145c6e272b15246d4
+[2025-06-14 14:18:26] - INFO - Busca por dia realizada para usuário 684d84b145c6e272b15246d4 - Data: 2025-06-14
+[2025-06-14 14:18:26] - INFO - Busca por período realizada para usuário 684d84b145c6e272b15246d4 - De: 2025-01-01 até 2025-12-31
+[2025-06-14 14:18:26] - INFO - Busca por nome realizada para usuário 684d84b145c6e272b15246d4 - Termo: "Reunião"
+[2025-06-14 14:18:26] - INFO - Busca por mês realizada para usuário 684d84b145c6e272b15246d4 - Ano: 2025, Mês: 6
+[2025-06-14 14:18:26] - INFO - Listagem de notificações pendentes realizada
+[2025-06-14 14:18:26] - ERRO - Erro na busca por dia para usuário 684d84b145c6e272b15246d4: Cast to date failed for value "Invalid Date" (type Date) at path "dataHoraInicio" for model "Compromisso"
+[2025-06-14 14:24:50] - INFO - Novo usuário registrado: teste@example.com
+[2025-06-14 14:24:50] - INFO - Login bem-sucedido para o usuário: teste@example.com
+[2025-06-14 14:24:50] - INFO - Compromisso criado para usuário 684d863245c6e272b15246df: Reunião de Teste
+[2025-06-14 14:24:50] - INFO - Listagem de compromissos realizada para usuário 684d863245c6e272b15246df
+[2025-06-14 14:24:50] - INFO - Busca por dia realizada para usuário 684d863245c6e272b15246df - Data: 2025-06-14
+[2025-06-14 14:24:50] - INFO - Busca por período realizada para usuário 684d863245c6e272b15246df - De: 2025-01-01 até 2025-12-31
+[2025-06-14 14:24:50] - INFO - Busca por nome realizada para usuário 684d863245c6e272b15246df - Termo: "Reunião"
+[2025-06-14 14:24:50] - INFO - Busca por mês realizada para usuário 684d863245c6e272b15246df - Ano: 2025, Mês: 6
+[2025-06-14 14:24:50] - INFO - Listagem de notificações pendentes realizada
+[2025-06-14 14:24:50] - ERRO - Erro na busca por dia para usuário 684d863245c6e272b15246df: Cast to date failed for value "Invalid Date" (type Date) at path "dataHoraInicio" for model "Compromisso"
